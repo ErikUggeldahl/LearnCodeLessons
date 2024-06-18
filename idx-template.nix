@@ -14,24 +14,4 @@
     # Git repository
     rm -rf "$out/.git" "$out/idx-template".{nix,json}
   '';
-
-  packages = [
-    pkgs.nodejs_21
-    pkgs.rustfmt
-    pkgs.rustup
-    pkgs.stdenv.cc
-  ];
-
-  env = {
-    RUST_SRC_PATH = "${pkgs.rustPlatform.rustLibSrc}";
-  };
-
-  idx = {
-    extensions = [
-      "rust-lang.rust-analyzer"
-      "tamasfe.even-better-toml"
-      "serayuzgur.crates"
-      "vadimcn.vscode-lldb"
-    ];
-  };
 }
