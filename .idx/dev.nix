@@ -2,9 +2,9 @@
   channel = "stable-23.11";
 
   packages = [
-    pkgs.nodejs_21
+    pkgs.cargo
+    pkgs.rustc
     pkgs.rustfmt
-    pkgs.rustup
     pkgs.stdenv.cc
   ];
 
