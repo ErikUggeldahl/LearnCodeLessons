@@ -3,6 +3,7 @@
 
   packages = [
     pkgs.cargo
+    pkgs.clippy
     pkgs.rustc
     pkgs.rustfmt
     pkgs.stdenv.cc
