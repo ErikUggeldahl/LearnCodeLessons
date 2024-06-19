@@ -1,3 +1,4 @@
 {
-    "IDX.aI.enableInlineCompletion": false
+    "IDX.aI.enableInlineCompletion": false,
+    "rust-analyzer.check.command": "clippy",
 }
