@@ -1,4 +1,5 @@
 {
     "IDX.aI.enableInlineCompletion": false,
     "rust-analyzer.check.command": "clippy",
+    "editor.formatOnSave": true,
 }
